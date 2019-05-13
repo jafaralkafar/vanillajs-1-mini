@@ -15,7 +15,7 @@ function decrease() {
 
 function reset() {
     count = 0
-    element.innerText = count
+    element.innerHTML = `<mark>${count}</mark>`
     // console.log(count)
 }
 
